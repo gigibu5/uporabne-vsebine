@@ -92,10 +92,10 @@ let b = [1, 3, 5, 7, 8, 66, 3]; // Polna tabela
 
 ### Pomenbne metode tabel
 ```js
-b.pop() // Izbriše zadnji element in ga vrne
-b.push() // Doda element na konec tabele
-b.shift() // Izbriše prvi element in ga vrne
-b.unshift() // Doda element na začetek tabele
+a = b.pop() // Izbriše zadnji element in ga vrne v a
+b.push(20) // Doda element 20 na konec tabele
+a = b.shift() // Izbriše prvi element in ga vrne v a
+b.unshift(20) // Doda element 20 na začetek tabele
 
 b.sort() // sortira tabelo
 b.reverse() // sortira od uzad
