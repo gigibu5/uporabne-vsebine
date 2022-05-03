@@ -65,7 +65,7 @@ END
 
 **For zanka:**
 ```sql
-FOR (/* SELECT STAVEK */) INTO /* Naštete spremenljivke, ki smo jih izbrali */ DO
+FOR /* SELECT STAVEK */ INTO /* Naštete spremenljivke, ki smo jih izbrali */ DO
 BEGIN
 	/* UKAZI */
 END
